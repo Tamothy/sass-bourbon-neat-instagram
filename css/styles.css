@@ -9,6 +9,26 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+img {
+  max-width: 100%;
+  padding: .5em; }
+img:hover {
+  opacity: .5; }
+
+nav {
+  padding: .5em;
+  margin: 2em;
+  border-bottom: 1px solid black;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+span {
+  color: #FF6C64;
+  font-size: 3em; }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -25,14 +45,28 @@ html {
     .container .box:last-child {
       margin-right: 0; }
 
-img {
-  max-width: 100%;
-  padding: .5em; }
-img:hover {
-  opacity: .5; }
+.logo {
+  width: 3em; }
+
+.search {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  margin-left: 25em;
+  text-align: center;
+  position: relative; }
 
 @media only screen and (max-width: 735px) {
   img {
-    padding: 0; } }
+    padding: 0; }
+
+  .logo {
+    width: 2em; } }
+@media only screen and (max-width: 455px) {
+  .search {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

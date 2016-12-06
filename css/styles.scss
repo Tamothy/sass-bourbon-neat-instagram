@@ -1,13 +1,13 @@
 @import "_reset.scss";
 
+@import "base/index";
+@import "layout/index";
+@import "components/index";
 @import "libraries/neat/neat";
 @import "libraries/bourbon/bourbon";
 
-
-.container {
-  @include outer-container;
-  .box { @include span-columns(4);
-   }
+body {
+  // background: $color;
 }
 
 img {
@@ -21,8 +21,51 @@ img {
   }
 }
 
+nav {
+  padding: .5em;
+  margin: 2em;
+  border-bottom: 1px solid black;
+  @include vertical-align();
+}
+
+span {
+  color: $insta;
+  font-size: 3em;
+}
+
+.container {
+  @include outer-container;
+  .box { @include span-columns(4);
+   }
+}
+
+.logo {
+  width: 3em;
+}
+
+.search {
+  @include vertical-align();
+  display: inline-block;
+  margin-left: 25em;
+  text-align: center;
+  position:relative;
+}
+
+
+
+// Media Queries
+
 @media only screen and (max-width: 735px) {
   img {
     padding: 0;
+  }
+  .logo {
+    width: 2em;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .search {
+    display: none;
   }
 }
