@@ -9,4 +9,23 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .container .box {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .container .box:last-child {
+      margin-right: 0; }
+
+img {
+  max-width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */

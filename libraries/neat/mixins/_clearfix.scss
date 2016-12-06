@@ -23,3 +23,7 @@
     display: block;
   }
 }
+
+@mixin middle {
+  object-fit: cover;
+}

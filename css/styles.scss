@@ -2,3 +2,14 @@
 
 @import "libraries/neat/neat";
 @import "libraries/bourbon/bourbon";
+
+
+.container {
+  @include outer-container;
+  .box { @include span-columns(4);
+   }
+}
+
+img {
+  max-width: 100%;
+}
