@@ -1,49 +1,43 @@
-# _Title_
+# Instragram (Sass, Bourbon, Neat)
 
-#### _Project Epicodus: Date_
+#### CSS exercise utilizing Sass frameworks Bourbon and Neat
 
-#### By _**Megan Kaluza**_
-
-![screenshot]
+#### By Tam Nguyen
 
 ## Description
 
-
+This contains an exercise designing Instragram's layout using Neat framework's grid system. In addition, partial, extend, mixin, and string interpolation concepts were utilized in this exercise.
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/bourbon-neat.git_
-* _gem install sass_
-* _gem install bourbon_
-* _bourbon install_
-* _gem install neat_
-* _neat install_
-* _sass --watch ._
-* _Open in browser of your choice_
-
-## Known Bugs
-
-_No known bugs at this time_
+* Check out the GitHub pages link: https://tamothy.github.io/sass-bourbon-neat-instagram
+* Clone repository if interested in making changes
+* Make sure to have Sass installed, if not, run `gem install sass` in terminal
+* Make sure to have Bourbon installed, if not, run `bourbon install` in terminal
+* Make sure to have Neat installed, if not, run `neat install` in terminal
+* If there is an error message when installing Sass, run `sudo gem install sass` in terminal
+* Use Atom to customize changes
+* Make sure to commit regularly on terminal
+* Don't forget to push to remote repository
 
 ## Support and contact details
 
-  _megan.kaluza@gmail.com_
+Tam Nguyen's email: mr.tamron@gmail.com
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _SASS_
-* _Bootstrap_
+Sass
+
+Bourbon
+
+Neat
+
+CSS
+
+HTML
 
 ### License
 
-Copyright (c) 2016 **_Megan Kaluza_**
-
 This software is licensed under the MIT license.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright (c) 2016 **Tam Nguyen**
