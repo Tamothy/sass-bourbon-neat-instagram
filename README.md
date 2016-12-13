@@ -22,8 +22,8 @@ This contains an exercise designing Instragram's layout using Neat framework's g
 
 ## Support and contact details
 
-Tam Nguyen's email: mr.tamron@gmail.com
-Megan Kaluza's email: megan.kaluza@gmail.com
+* Tam Nguyen's email: mr.tamron@gmail.com
+* Megan Kaluza's email: megan.kaluza@gmail.com
 
 ## Technologies Used
 
