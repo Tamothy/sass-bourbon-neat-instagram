@@ -9,25 +9,79 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+header {
+  height: 51px;
+  border-bottom: 1px solid black; }
+
+.flex-container {
+  width: 979px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px; }
+  .flex-container ul {
+    display: flex; }
+  .flex-container li {
+    padding: 10px;
+    list-style-type: none; }
+
+a:link {
+  text-decoration: none; }
+
+button {
+  border: 1px solid #4c9d2c;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #a1ce8f;
+  color: #333333;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #70C050;
+  background-image: -webkit-linear-gradient(#70C050, #52a82f);
+  background-image: linear-gradient(#70C050, #52a82f);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #78d054;
+  background-clip: padding-box;
+  color: white; }
+  button:hover:not(:disabled) {
+    background-color: #65b046;
+    background-image: -webkit-linear-gradient(#65b046, #4d9c2d);
+    background-image: linear-gradient(#65b046, #4d9c2d);
+    box-shadow: inset 0 1px 0 0 #83bf6a;
+    cursor: pointer; }
+  button:active:not(:disabled), button:focus:not(:disabled) {
+    border: 1px solid #4c9d2c;
+    box-shadow: inset 0 0 8px 4px #478f2b, inset 0 0 8px 4px #478f2b; }
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
 img {
   max-width: 100%;
   padding: .5em; }
 img:hover {
   opacity: .5; }
 
-nav {
-  padding: .5em;
-  margin: 2em;
-  border-bottom: 1px solid black;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+.avatar {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("../img/girl-lip.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-span {
-  color: #FF6C64;
-  font-size: 3em; }
+.box {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center; }
+  .box ul {
+    display: flex; }
+  .box li {
+    padding: 10px;
+    list-style-type: none; }
 
 .container {
   max-width: 1200px;
@@ -45,6 +99,9 @@ span {
     .container .box:last-child {
       margin-right: 0; }
 
+.icons {
+  width: 40px; }
+
 .logo {
   width: 3em; }
 
@@ -55,7 +112,6 @@ span {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block;
-  margin-left: 25em;
   text-align: center;
   position: relative; }
 

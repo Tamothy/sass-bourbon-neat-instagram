@@ -4,8 +4,37 @@
 @import "libraries/neat/neat";
 @import "libraries/bourbon/bourbon";
 
-body {
-  // background: $color;
+// Flex NavBar
+
+header {
+  height: 51px;
+  border-bottom: 1px solid black;
+}
+
+.flex-container {
+  width: 979px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+    ul {
+      display: flex;
+    }
+    li {
+      padding: 10px;
+      list-style-type: none;
+    }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+// CSS
+button {
+  @include button($green);
+  color: white;
 }
 
 img {
@@ -19,22 +48,41 @@ img {
   }
 }
 
-nav {
-  padding: .5em;
-  margin: 2em;
-  border-bottom: 1px solid black;
-  @include vertical-align();
+h1 {
+
 }
 
-span {
-  color: $insta;
-  font-size: 3em;
+.avatar {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("../img/girl-lip.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+  }
+  li {
+    padding: 10px;
+    list-style-type: none;
+  }
 }
 
 .container {
   @include outer-container;
   .box { @include span-columns(4);
    }
+}
+
+.icons {
+  width: 40px;
 }
 
 .logo {
@@ -44,7 +92,6 @@ span {
 .search {
   @include vertical-align();
   display: inline-block;
-  margin-left: 25em;
   text-align: center;
   position:relative;
 }
