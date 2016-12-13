@@ -1,8 +1,8 @@
-# Instragram (Sass, Bourbon, Neat)
+# Instagram (Sass, Bourbon, Neat, Flexbox)
 
 #### CSS exercise utilizing Sass frameworks Bourbon and Neat
 
-#### By Tam Nguyen
+#### By Tam Nguyen and Megan Kaluza
 
 ## Description
 
@@ -23,8 +23,11 @@ This contains an exercise designing Instragram's layout using Neat framework's g
 ## Support and contact details
 
 Tam Nguyen's email: mr.tamron@gmail.com
+Megan Kaluza's email: megan.kaluza@gmail.com
 
 ## Technologies Used
+
+Flexbox
 
 Sass
 
