@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
 @import "base/index";
 @import "layout/index";
 @import "components/index";
@@ -7,6 +9,7 @@
 // Flex NavBar
 
 header {
+  background: $white;
   height: 51px;
   border-bottom: 1px solid black;
 }
@@ -31,7 +34,18 @@ a:link {
   text-decoration: none;
 }
 
+.insta {
+  display: flex;
+  width: 5em;
+  align-items: center;
+}
+
 // CSS
+body {
+  background: $background;
+  font-family: $stack-nunito;
+}
+
 button {
   @include button($green);
   color: white;
@@ -48,8 +62,10 @@ img {
   }
 }
 
-h1 {
-
+.arrow {
+  // display: flex;
+  flex-direction: row;
+  width: 3em;
 }
 
 .avatar {
@@ -96,6 +112,26 @@ h1 {
   position:relative;
 }
 
+// Footer
+
+footer {
+  font-size: .8em;
+  margin-top: 2em;
+  display: flex;
+  margin-bottom: 2.2em;
+  ul {
+    display: flex;
+  }
+  li {
+    padding: 10px;
+    list-style-type: none;
+  }
+}
+
+.copyright {
+  color: $gray;
+  flex-direction: row;
+}
 
 
 // Media Queries

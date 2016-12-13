@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ html {
   box-sizing: inherit; }
 
 header {
+  background: #FFFFFF;
   height: 51px;
   border-bottom: 1px solid black; }
 
@@ -28,6 +30,15 @@ header {
 
 a:link {
   text-decoration: none; }
+
+.insta {
+  display: flex;
+  width: 5em;
+  align-items: center; }
+
+body {
+  background: #FAFAFA;
+  font-family: "Nunito Sans", sans-serif; }
 
 button {
   border: 1px solid #4c9d2c;
@@ -63,6 +74,10 @@ img {
   padding: .5em; }
 img:hover {
   opacity: .5; }
+
+.arrow {
+  flex-direction: row;
+  width: 3em; }
 
 .avatar {
   display: flex;
@@ -114,6 +129,21 @@ img:hover {
   display: inline-block;
   text-align: center;
   position: relative; }
+
+footer {
+  font-size: .8em;
+  margin-top: 2em;
+  display: flex;
+  margin-bottom: 2.2em; }
+  footer ul {
+    display: flex; }
+  footer li {
+    padding: 10px;
+    list-style-type: none; }
+
+.copyright {
+  color: #999999;
+  flex-direction: row; }
 
 @media only screen and (max-width: 735px) {
   img {
