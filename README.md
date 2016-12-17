@@ -16,7 +16,7 @@ This contains an exercise designing Instragram's layout using Neat's framework a
 * If there is an error message when installing Sass, run `sudo gem install sass` in terminal
 * Make sure to have Bourbon installed, if not, run `gem install bourbon` in terminal
 * Make sure to have Neat installed, if not, run `gem install neat` in terminal
-* Once in project terminal path, run sass --watch scss:css in terminal
+* Once in project terminal path, run `sass --watch scss:css` in terminal
 * Use Atom to customize changes
 * Make sure to commit regularly on terminal
 * Don't forget to push to remote repository
