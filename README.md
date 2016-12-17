@@ -1,12 +1,12 @@
 # Instagram (Sass, Bourbon, Neat, Flexbox)
 
-#### CSS exercise utilizing Sass frameworks Bourbon and Neat
+#### CSS exercise utilizing Sass frameworks Bourbon and Neat, in addition to Flexbox
 
 #### By Tam Nguyen and Megan Kaluza
 
 ## Description
 
-This contains an exercise designing Instragram's layout using Neat framework's grid system. In addition, partial, extend, mixin, and string interpolation concepts were utilized in this exercise.
+This contains an exercise designing Instragram's layout using Neat's framework and Flexbox grid system. In addition, partial, extend, mixin, and string interpolation concepts were utilized in this exercise.
 
 ## Setup/Installation Requirements
 
@@ -16,6 +16,7 @@ This contains an exercise designing Instragram's layout using Neat framework's g
 * If there is an error message when installing Sass, run `sudo gem install sass` in terminal
 * Make sure to have Bourbon installed, if not, run `gem install bourbon` in terminal
 * Make sure to have Neat installed, if not, run `gem install neat` in terminal
+* Once in project terminal path, run sass --watch scss:css in terminal
 * Use Atom to customize changes
 * Make sure to commit regularly on terminal
 * Don't forget to push to remote repository
